@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thank You</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .thank-you-container {
+            max-width: 600px;
+            margin: 100px auto;
+            text-align: center;
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .thank-you-container h1 {
+            font-size: 32px;
+            color: #007BFF;
+        }
+
+        .thank-you-container p {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        .thank-you-container a {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        .thank-you-container a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="thank-you-container">
+        <h1>Thank You!</h1>
+        <p>Your message has been received. We'll get back to you shortly.</p>
+        <a href="/">Back to Home</a>
+    </div>
+</body>
+</html>
