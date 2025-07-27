@@ -6,7 +6,7 @@ import random
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-app = Flask(__name__, static_folder="../static", template_folder="../templates")
+app = Flask(__name__)
 
 
 # Initialize DB
